@@ -173,8 +173,9 @@ Performs inverse acceleration kinematics.
 - `x_double_dot`: Desired end effector accelerations.
 
 ## Example
+![Robot Kinematics](https://github.com/ziadwareh/robot-kinematics-dh-matlab/blob/master/example_robot.png)
 
-`example_robot.m` demonstrates how to use the `robot_kinematics` class to perform various kinematic computations for a robot with two degrees of freedom (2-DOF). Please check the included `example_robot.png` to see the modeled robot in this code. The example goes through the following:
+`example_robot.m` demonstrates how to use the `robot_kinematics` class to perform various kinematic computations for a robot with two degrees of freedom (2-DOF). The figure above depicts the modeled robot in this code. The example goes through the following:
 
 1. **Initialization**: 
     - Creates a `robot_kinematics` object with a DH table, task space size, and optional symbolic parameter flag.
